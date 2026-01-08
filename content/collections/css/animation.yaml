@@ -1,16 +1,14 @@
 slug: css/animation
 title: CSS Animations
 listed: true
-miniTitle: Animation
+miniTitle: Animations
 parent: css
 languageMatcher: css
 tagMatcher: animation
 description: >-
-  The CSS article collection contains utilities and interactive examples for
-  CSS3. It includes modern techniques for creating commonly-used layouts,
-  styling and animating elements, as well as articles for handling user
-  interactions.
+ This collection contains interactive CSS animation examples and utilities.
+  It focuses on modern techniques for animating elements and creating smooth
+  visual transitions.
 shortDescription: >-
-  An article collection of interactive CSS3 animation code articles with
-  interactive examples.
+  A collection of interactive CSS animation articles with practical examples.
 splash: camera

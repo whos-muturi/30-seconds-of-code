@@ -1,0 +1,132 @@
+[1mdiff --git a/content/collections/css/animation.yaml b/content/collections/css/animation.yaml[m
+[1mindex c63f01aec..fe1b9d645 100644[m
+[1m--- a/content/collections/css/animation.yaml[m
+[1m+++ b/content/collections/css/animation.yaml[m
+[36m@@ -1,16 +1,14 @@[m
+ slug: css/animation[m
+ title: CSS Animations[m
+ listed: true[m
+[31m-miniTitle: Animation[m
+[32m+[m[32mminiTitle: Animations[m
+ parent: css[m
+ languageMatcher: css[m
+ tagMatcher: animation[m
+ description: >-[m
+[31m-  The CSS article collection contains utilities and interactive examples for[m
+[31m-  CSS3. It includes modern techniques for creating commonly-used layouts,[m
+[31m-  styling and animating elements, as well as articles for handling user[m
+[31m-  interactions.[m
+[32m+[m[32m This collection contains interactive CSS animation examples and utilities.[m
+[32m+[m[32m  It focuses on modern techniques for animating elements and creating smooth[m
+[32m+[m[32m  visual transitions.[m
+ shortDescription: >-[m
+[31m-  An article collection of interactive CSS3 animation code articles with[m
+[31m-  interactive examples.[m
+[32m+[m[32m  A collection of interactive CSS animation articles with practical examples.[m
+ splash: camera[m
+[1mdiff --git a/content/collections/css/index.yaml b/content/collections/css/index.yaml[m
+[1mindex 4e61a3fab..862db2c79 100644[m
+[1m--- a/content/collections/css/index.yaml[m
+[1m+++ b/content/collections/css/index.yaml[m
+[36m@@ -5,11 +5,10 @@[m [mtopLevel: true[m
+ languageMatcher: css[m
+ listed: true[m
+ description: >-[m
+[31m-  The CSS article collection contains utilities and interactive examples for[m
+[31m-  CSS3. It includes modern techniques for creating commonly-used layouts,[m
+[31m-  styling and animating elements, as well as articles for handling user[m
+[31m-  interactions.[m
+[32m+[m[32m  This collection contains CSS utilities and interactive examples.[m
+[32m+[m[32m  It focuses on modern techniques for layouts, styling and animations,[m
+[32m+[m[32m  including common user interactions.[m
+ shortDescription: >-[m
+[31m-  An article collection of interactive CSS3 examples, covering layouts, styling,[m
+[32m+[m[32m  A collection of interactive CSS examples covering layouts, styling,[m
+   animation and user interactions.[m
+ splash: camera[m
+[1mdiff --git a/content/collections/css/layout.yaml b/content/collections/css/layout.yaml[m
+[1mindex dcb8bf6b0..79dd18271 100644[m
+[1m--- a/content/collections/css/layout.yaml[m
+[1m+++ b/content/collections/css/layout.yaml[m
+[36m@@ -6,11 +6,10 @@[m [mparent: css[m
+ languageMatcher: css[m
+ tagMatcher: layout[m
+ description: >-[m
+[31m-  The CSS article collection contains utilities and interactive examples for[m
+[31m-  CSS3. It includes modern techniques for creating commonly-used layouts,[m
+[31m-  styling and animating elements, as well as articles for handling user[m
+[31m-  interactions.[m
+[32m+[m[32m  This collection contains CSS utilities and interactive examples.[m
+[32m+[m[32m  It focuses on modern techniques for layouts, styling and animations,[m
+[32m+[m[32m  including common user interactions.[m
+ shortDescription: >-[m
+[31m-  Learn how to create common layouts with CSS3, using modern techniques such as[m
+[31m-  flexbox and grid.[m
+[32m+[m[32m  A collection of interactive CSS examples covering layouts, styling,[m
+[32m+[m[32m  animation and user interactions.[m
+ splash: camera[m
+[1mdiff --git a/content/collections/git/branch.yaml b/content/collections/git/branch.yaml[m
+[1mindex e1285a986..b0f111d97 100644[m
+[1m--- a/content/collections/git/branch.yaml[m
+[1m+++ b/content/collections/git/branch.yaml[m
+[36m@@ -7,11 +7,10 @@[m [mparent: git[m
+ languageMatcher: git[m
+ tagMatcher: branch[m
+ description: >-[m
+[31m-  The Git article collection contains a variety of short tips and tricks for all[m
+[31m-  currently maintained versions of git. It includes most commonly-used commands[m
+[31m-  and covers various use-cases in the form of simplified documentation, complete[m
+[31m-  with multiple examples.[m
+[32m+[m[32m  This collection contains short Git articles with practical examples.[m
+[32m+[m[32m  It covers commonly used commands and workflows using clear,[m
+[32m+[m[32m  simplified documentation.[m
+ shortDescription: >-[m
+[31m-  Master git branch commands with this article collection of simplified git[m
+[31m-  documentation and tips.[m
+[32m+[m[32m  A collection of short Git articles covering common commands and workflows.[m
+ splash: keyboard-coffee[m
+[41m+[m
+[1mdiff --git a/content/collections/git/configuration.yaml b/content/collections/git/configuration.yaml[m
+[1mindex d2a27ea66..c4157d551 100644[m
+[1m--- a/content/collections/git/configuration.yaml[m
+[1m+++ b/content/collections/git/configuration.yaml[m
+[36m@@ -7,11 +7,11 @@[m [mparent: git[m
+ languageMatcher: git[m
+ tagMatcher: configuration[m
+ description: >-[m
+[31m-  The Git article collection contains a variety of short tips and tricks for all[m
+[31m-  currently maintained versions of git. It includes most commonly-used commands[m
+[31m-  and covers various use-cases in the form of simplified documentation, complete[m
+[31m-  with multiple examples.[m
+[32m+[m[32m  This collection contains short Git articles with practical examples.[m
+[32m+[m[32m  It covers commonly used commands and workflows using clear,[m
+[32m+[m[32m  simplified documentation.[m
+ shortDescription: >-[m
+[31m-  Create and manage git configurations with this article collection of[m
+[31m-  simplified git documentation and tips.[m
+[32m+[m[32m  A collection of short Git articles covering configuration,[m
+[32m+[m[32m  commands and common workflows.[m
+ splash: keyboard-coffee[m
+[41m+[m
+[1mdiff --git a/content/collections/html/head-basics.yaml b/content/collections/html/head-basics.yaml[m
+[1mindex a1d29eec9..2606e6bf4 100644[m
+[1m--- a/content/collections/html/head-basics.yaml[m
+[1m+++ b/content/collections/html/head-basics.yaml[m
+[36m@@ -9,10 +9,11 @@[m [msnippetIds:[m
+   - html/s/head-links[m
+ splash: basics[m
+ description: >-[m
+[31m-  Learn how to use the HTML `<head>` element to improve your site's SEO, social[m
+[31m-  sharing, and user experience. This collection includes up to date[m
+[31m-  recommendations for a standard setup, including basic metadata, social tags,[m
+[31m-  icons, and links.[m
+[32m+[m[32m  This collection covers the HTML `<head>` element and its role in SEO,[m
+[32m+[m[32m  social sharing and user experience.[m
+[32m+[m[32m  It includes up-to-date recommendations for metadata, social tags,[m
+[32m+[m[32m  icons and links.[m
+ shortDescription: >-[m
+[31m-  Learn how to use the HTML head element to improve your site's SEO, social[m
+[31m-  sharing, and user experience.[m
+[32m+[m[32m  A collection of articles about the HTML `<head>` element and its[m
+[32m+[m[32m  common use cases.[m
+[41m+[m
